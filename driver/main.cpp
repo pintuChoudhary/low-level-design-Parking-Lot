@@ -14,11 +14,11 @@ void printParkingLotStatus(ParkingLot *parkinglot){
 int main(){
     
     std::cout<<"Parking Lot Application is online"<<std::endl;
-    VehicleInfo *v1 = new VehicleInfo("Rahul","123456781",100,1212,VehicleType::CAR);
-    VehicleInfo *v2 = new VehicleInfo("Sahil","123456782",100,1222,VehicleType::BIKE);
-    VehicleInfo *v3 = new VehicleInfo("Bhupi","123456783",100,1232,VehicleType::BUS);
-    VehicleInfo *v4 = new VehicleInfo("Ajay","123456784",100,1242,VehicleType::BIKE);
-    VehicleInfo *v5 = new VehicleInfo("Kunal","123456785",100,1252,VehicleType::CAR);
+    VehicleInfo *v1 = new VehicleInfo("User1","123456781",100,1212,VehicleType::CAR);
+    VehicleInfo *v2 = new VehicleInfo("User2","123456782",100,1222,VehicleType::BIKE);
+    VehicleInfo *v3 = new VehicleInfo("User3","123456783",100,1232,VehicleType::BUS);
+    VehicleInfo *v4 = new VehicleInfo("User4","123456784",100,1242,VehicleType::BIKE);
+    VehicleInfo *v5 = new VehicleInfo("User5","123456785",100,1252,VehicleType::CAR);
 
     ParkingLot *parkinglot = new ParkingLot(1,6,4,2);
     printParkingLotStatus(parkinglot);
